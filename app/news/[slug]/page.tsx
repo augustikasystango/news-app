@@ -30,6 +30,6 @@ function NewsDetailsPage({ params }: NewsDetailsPageProps) {
         <p>News ID : {newsId}</p>
         <p>{newsItem.content}</p>
     </article>)
-}
+} 
 
 export default NewsDetailsPage

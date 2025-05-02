@@ -6,6 +6,7 @@ function NewsPage() {
     <>
     <h2>News Page</h2>
    <NewsList news={DUMMY_NEWS}/>
+   
     </>
   )
 }
