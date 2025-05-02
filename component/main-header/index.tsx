@@ -1,5 +1,11 @@
+'use client';
+import NavLink from "../nav-link";
 import Link from "next/link"
+
 const MainHeader = () => {
+ 
+
+
   return (
     <header id="main-header">
     <div id="logo">
@@ -8,10 +14,10 @@ const MainHeader = () => {
     <nav>
       <ul>
         <li>
-          <Link href="/news">News</Link>
+          <NavLink href={"/news"}>News</NavLink>
         </li>
         <li>
-          <Link href="/archive">Archive</Link>
+         <NavLink href={"/archive"}>Archived</NavLink>
         </li>
       </ul>
     </nav>
